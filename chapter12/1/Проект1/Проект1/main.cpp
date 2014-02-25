@@ -24,7 +24,7 @@ int main() {
 		std::cin.getline(hobby, MaxLen).get();
 		std::cout << "Enter weight";
 		std::cin >> weight;
-		Cow cow(name, hobby, weight);
+		p[i] = Cow(name, hobby, weight);
 	}
 
 	std::cout << "All data: ";
@@ -32,11 +32,9 @@ int main() {
 		p[i].ShowCow();
 	}
 	
-	p[3] = test;
+	p[number] = test;
 
-	for (int i = 0; i < number; i++){
-		p[i].~Cow();
-	}
+	
 	delete[] p;
 	return 0;
 }
