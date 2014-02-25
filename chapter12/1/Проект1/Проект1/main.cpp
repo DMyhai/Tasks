@@ -32,7 +32,8 @@ int main() {
 		p[i].ShowCow();
 	}
 	
-	p[number] = test;
+	p[number-1] = test;
+	p[number-1].ShowCow();
 
 	
 	delete[] p;
