@@ -49,27 +49,12 @@ int main(){
 				<< "P to process a PO, or Q to quit. \n  ";
 			}
 
-	//std::cout << "Would you like to make a copy of your data (Y/N) \n";
+	
 	
 	std::cout << "Copying of you data/ ";
 	Stack st_copy(st);
 
-		/*while (std::cin >> ch)
-		{
-			if (ch == 'Y'){
-				std::cout << "Your data has been copied successfully \n";
-				break;
-			}
-			else if (ch == 'N'){
-				break;
-			}
-			std::cout << "You entered wrong simbol! Try again. ";
-		}
-*/
 	
-
-	st_copy.~Stack();
-	st.~Stack();
 	
 	std::cout << "Bye\n";
 	return 0;
