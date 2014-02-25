@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    int res = 0;
+    while(1){
+    cout<<"Enter number: ";
+    cin>>a;
+    res += a;
+    if (a == 0){
+        break;
+    }
+    cout<<"Summ: "<<res<<endl;
+
+    }
+    return 0;
+}

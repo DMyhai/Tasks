@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1391090056 source:d:\users\dmytro.mykhailishen\projects\task\chapter9\4\main.cpp
+	<iostream>
+	"sales.h"
+
+1391073732 d:\users\dmytro.mykhailishen\projects\task\chapter9\4\sales.h
+
+1391091058 source:d:\users\dmytro.mykhailishen\projects\task\chapter9\4\sales.cpp
+	<string.h>
+	"sales.h"
+	<iostream>
+

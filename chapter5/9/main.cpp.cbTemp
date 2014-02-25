@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+int main()
+{
+    int i;
+    string *read = new string [20];
+    string done = "done";
+    cout<<"Enter your information: "<<endl;
+    getline(cin, read[0]);
+
+    for (i=0; read[i] != done; ){
+        i++;
+        getline(cin, read[i]);
+
+    }
+        cout<<"Enter to be completed ! You entered "<< i <<" words " << endl;
+
+    return 0;
+}
